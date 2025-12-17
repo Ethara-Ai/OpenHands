@@ -19,4 +19,15 @@
         }
     ],
     "python.analysis.stubPath": "./.venv/lib/python3.12/site-packages",
+    "workbench.colorCustomizations": {
+        "sash.hoverBorder": "#f38d8d",
+        "statusBar.background": "#ee5f5f",
+        "statusBar.border": "#ee5f5f",
+        "statusBar.foreground": "#15202b",
+        "statusBarItem.hoverBackground": "#e93131",
+        "statusBarItem.remoteBackground": "#ee5f5f",
+        "statusBarItem.remoteForeground": "#15202b",
+        "tab.activeBorder": "#f38d8d"
+    },
+    "peacock.color": "#ee5f5f",
 }
