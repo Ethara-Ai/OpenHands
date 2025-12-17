@@ -232,7 +232,8 @@ def process_instance(
         EvalOutput: Results from processing this instance
     """
     if reset_logger:
-        reset_logger_for_multiprocessing(logger, instance["instance_id"])
+        log_dir = os.path.join(metadata.eval_output_dir, "infer_logs")
+        reset_logger_for_multiprocessing(logger, instance["instance_id"], log_dir)
 
     instance_id = instance["instance_id"]
     logger.info(f"Processing instance: {instance_id}")
